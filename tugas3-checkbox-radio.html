@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Store Survey</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Modern tech-themed colors */
+        body {
+            background-color: #3d3e40; /* Light grey background */
+            color: #333; /* Dark grey text for readability */
+            font-family: 'Roboto', sans-serif; /* Technical font */
+        }
+
+        h2 {
+            color: #0d6efd; /* Tech blue */
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+        }
+
+        .form-check-label {
+            color: #0d6efd; /* Blue for form labels */
+        }
+
+        .btn-primary {
+            background-color: #0d6efd; /* Tech blue for buttons */
+            border-color: #0d6efd;
+        }
+
+        .btn-primary:hover {
+            background-color: #084298; /* Darker blue on hover */
+        }
+
+        .form-check-input:checked {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Computer Store Survey</h2>
+        <form>
+            <p>Which type of computer do you prefer?</p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="laptop" id="laptop">
+                <label class="form-check-label" for="laptop">Laptop</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="desktop" id="desktop">
+                <label class="form-check-label" for="desktop">Desktop</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="gaming-pc" id="gaming-pc">
+                <label class="form-check-label" for="gaming-pc">Gaming PC</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="workstation" id="workstation">
+                <label class="form-check-label" for="workstation">Workstation</label>
+            </div>
+
+            <p>How often do you upgrade your computer?</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="upgradeFrequency" id="option1" value="1-year">
+                <label class="form-check-label" for="option1">Every 1 year</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="upgradeFrequency" id="option2" value="2-3-years">
+                <label class="form-check-label" for="option2">Every 2-3 years</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="upgradeFrequency" id="option3" value="4-5-years">
+                <label class="form-check-label" for="option3">Every 4-5 years</label>
+            </div>
+
+            <p>What brand of computers do you prefer?</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="brandPreference" id="brand1" value="dell">
+                <label class="form-check-label" for="brand1">Dell</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="brandPreference" id="brand2" value="hp">
+                <label class="form-check-label" for="brand2">HP</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="brandPreference" id="brand3" value="lenovo">
+                <label class="form-check-label" for="brand3">Lenovo</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="brandPreference" id="brand4" value="asus">
+                <label class="form-check-label" for="brand4">Asus</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
